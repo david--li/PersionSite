@@ -1,0 +1,17 @@
+doctype
+html
+	head
+		title #{title}
+		link(rel='stylesheet',href="css/main.css")
+		script(type="text/javascript",src="js/jquery.js")
+	body
+		div.nav
+			ul
+				li.logo LOGO
+				li.menu Home
+				each value in menu
+					li.menu #{value}
+
+				li.right 登录
+		.content
+			block content

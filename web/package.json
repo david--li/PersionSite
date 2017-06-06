@@ -1,0 +1,32 @@
+{
+  "name": "persion",
+  "version": "1.0.0",
+  "description": "persion web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david--li/PersionSite.git"
+  },
+  "author": "david.li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david--li/PersionSite/issues"
+  },
+  "homepage": "https://github.com/david--li/PersionSite#readme",
+  "dependencies": {
+    "async": "^2.4.1",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "favicon": "0.0.2",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "mysql": "^2.13.0",
+    "serve-favicon": "^2.4.3"
+  }
+}
