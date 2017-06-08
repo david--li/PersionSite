@@ -15,6 +15,14 @@ app.use(express.static(__dirname+'/public/'));
 
 app.get('/', routes.index);
 
+app.get('/article/list', routes.list);
+
+app.get('/article', routes.article);
+
+app.get('/tags', routes.tags);
+
+app.get('/user', routes.user);
+
 
 app.listen(3000, function () {
 	console.log("http://127.0.0.1:3000");

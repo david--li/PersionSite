@@ -1,17 +1,19 @@
-doctype
-html
+<!DOCTYPE html>
+html(lang="en")
 	head
 		title #{title}
+		link(rel='stylesheet',href="ext/bootstrap/css/bootstrap.css")
 		link(rel='stylesheet',href="css/main.css")
 		script(type="text/javascript",src="js/jquery.js")
+		script(type="text/javascript",src="ext/bootstrap/js/bootstrap.js")
 	body
-		div.nav
+		.nav
 			ul
 				li.logo LOGO
 				li.menu Home
-				each value in menu
-					li.menu #{value}
+				each menu in menus
+					li.menu #{menu.category_name}
 
-				li.right 登录
+				//li.right 登录
 		.content
 			block content
